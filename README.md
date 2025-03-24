@@ -3,7 +3,8 @@
 This project provides an end-to-end setup for generating adversarial samples and evaluating the robustness of YOLO-based object detection models. It consists of a **React frontend** and a **FastAPI backend**, each containerized and orchestrated using Docker Compose.
 
 > 🔍 **Goal**: Create adversarial corruptions that fool YOLO object detectors, visualize the impact, and use these insights to build more robust models.
-👉 [Video example](assets/webapp.gif)
+
+![Video example](assets/webapp.gif)
 
 ## 🧠 Background
 
