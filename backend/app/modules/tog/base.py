@@ -130,9 +130,7 @@ class TOG:
         else:
             raise NotImplementedError(f"Not valid n_iters type: {type(n_iters)}")
         for i in range(total_iters):
-            print(f"Running iter {i}")
             x_adv,loss = self.step(x_adv,batch_dict)
-            print(f"Current loss: {loss}")
             if self.debug:
                 logging.debug(f"Current loss {loss}")
             if force_stop:
